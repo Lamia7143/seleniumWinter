@@ -16,8 +16,7 @@ public class BookStoreLogIn {
 
     @BeforeClass
     void setup(){
-        WebDriverManager.edgedriver().setup();
-        driver = DriverUtill.getWebdriver();
+        driver = DriverUtill.getWebDriver();
         driver.get("https://demoqa.com/");
     }
     @Test

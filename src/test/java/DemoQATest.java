@@ -20,7 +20,7 @@ public class DemoQATest {
 
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
-        driver.get("https://demoqa.com/"); //.get() method to navigate to a website
+        //driver.get();
 
     }
 
